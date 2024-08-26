@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR</title>
+    <link rel="icon" href="./enc.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<main>
+    <header>
+      <p></p>
+      <h1 class="titulo">Encriptador de Texto</h1>
+      <p class="instru">Escribe el texto a encriptar</p>
+    </header>
+    <body>
+      <div class="flex-caja">
+        <div class="divi"> 
+          <textarea class="escrito" rows="1" placeholder="Escriba su texto aquí"></textarea>
+          <p>Por favor, ingrese sólo letras minúsculas sin acentos ni números ni caracteres especiales</p>
+          <p>
+            <button class="btn-encriptar">Encriptar</button>
+            <button class="btn-desencriptar" id="btn-desencriptar" disabled>Desencriptar</button>
+          </p>
+          <textarea class="dupli" rows="1"  placeholder="Aqui podrá ver su texto encriptado"></textarea>
+          <p>
+            <button class="btn-copiar" id="btn-copiar" disabled>Copiar</button>
+          </p>
+        </div>
+        <div class="divi">
+          <img class="img" src="./encrip.jpeg" alt="Imagen referida a encriptar">
+        </div>    
+      </div>
+    </body>
+    <footer>
+        <p><center>Cragnolini, Viviana - 2024</center></p> 
+    </footer>    
+</main>  <script src="./encriptador.js"></script>
+</html>
